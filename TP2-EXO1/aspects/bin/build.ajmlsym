@@ -1,0 +1,11 @@
+[crossrefs] file /code/src/aspects/AddOnAspect.java
+[crossrefs] file /code/src/aspects/AddOn.java
+[crossrefs] file /code/src/aspects/Coffee.java
+  > Type: 'aspects.Coffee'
+    - Join point: 'method-execution(void aspects.Coffee.addAddOn(aspects.AddOn))' in Type 'aspects.Coffee' (Coffee.java:23) 
+       [advised by]: 
+        -- before <anonymous> advice from 'aspects.AddOnAspect' (AddOnAspect.java:18)
+    - Join point: 'method-execution(void aspects.Coffee.removeAddOn(aspects.AddOn))' in Type 'aspects.Coffee' (Coffee.java:27) 
+       [advised by]: 
+        -- before <anonymous> advice from 'aspects.AddOnAspect' (AddOnAspect.java:23)
+[crossrefs] file /code/src/aspects/main.java
